@@ -2,8 +2,8 @@ def validar_numeros(a, b):
     es_a_un_numero = isinstance(a, (int, float))
     es_b_un_numero = isinstance(b, (int, float))
     return (es_a_un_numero and es_b_un_numero)
-print("Buenas tardes")
-def sumar(a, b, c):
+print("Buenas tardes alumnos")
+def sumar(a, b, c, d):
     if not validar_numeros(a, b):
         return "Error: Solo se permiten números"
     resultado = a + b
